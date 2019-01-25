@@ -6,7 +6,7 @@ Rudra Teja, Potturi
 ## About
 To learn multiple commits and handle the pull and push.
 ## Recomended Tools
-1. [Github](https://github.com/RudraPotturi/aboutme) 
+1. [Github](https://github.com/) 
   - To create a new or open an existing repository.
   - Write the code and commit.
   - Publish the repository.
