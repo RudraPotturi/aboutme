@@ -40,6 +40,4 @@ Applied Computer Science
 
 NorthWest Missouri State University
 
-## Panda Image
-
 ![Hosted image](https://tinyjpg.com/images/social/website.jpg "Panda")
