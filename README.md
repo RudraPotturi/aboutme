@@ -20,3 +20,7 @@ To learn multiple commits and handle the pull and push.
 1. HTML(Hypertext markup language)
 2. CSS(Cascading style sheet)
 3. JavaScript
+## Recommended Sources
+- [Git](https://en.wikipedia.org/wiki/Git)
+- [Visual Studio](https://code.visualstudio.com/)
+- [Tortoise Git](https://en.wikipedia.org/wiki/TortoiseGit)
