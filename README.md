@@ -14,3 +14,6 @@ To learn multiple commits and handle the pull and push.
   - To code in the local using visual studio code.
   - To commit and push the changes to cloud.
 3. [Tortoise Git](https://tortoisegit.org/)
+  - It provides features like push, pull.
+  - It is also used to fetch and merge.
+## Recommended languages 
