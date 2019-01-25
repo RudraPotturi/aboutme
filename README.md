@@ -36,7 +36,7 @@ To learn multiple commits and handle the pull and push.
 
 Rudra Teja, Potturi
 
-rudra.potturi@gmail.com
+Applied Computer Science
 
 NorthWest Missouri State University
 
