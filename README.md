@@ -26,7 +26,5 @@ To learn multiple commits and handle the pull and push.
 - [Tortoise Git](https://en.wikipedia.org/wiki/TortoiseGit)
 ## Contributors
 Rudra Teja, Potturi
-
 rudra.potturi@gmail.com
-
 NorthWest Missouri State University
