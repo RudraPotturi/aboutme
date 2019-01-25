@@ -24,3 +24,9 @@ To learn multiple commits and handle the pull and push.
 - [Git](https://en.wikipedia.org/wiki/Git)
 - [Visual Studio](https://code.visualstudio.com/)
 - [Tortoise Git](https://en.wikipedia.org/wiki/TortoiseGit)
+## Contributors
+Rudra Teja, Potturi
+
+rudra.potturi@gmail.com
+
+NorthWest Missouri State University
