@@ -1,0 +1,67 @@
+body {
+  padding-top: 5rem;
+  
+}
+
+body, html {
+  height: 100%;
+}
+
+#video {
+  width: 100%;
+  background-color: lightblue;
+}
+
+section {
+  margin: 1rem;
+  padding: 2rem;
+  background-color: lightblue;
+  border-radius: 2em;
+}
+
+.bgimage {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-size: cover;
+  background-attachment: fixed; /* fixed in viewport */
+}
+.logo{
+  width: 2rem;
+  height: 2rem;
+  padding-left: 1px;
+  padding-top: 5px;
+
+}
+.flex-container {
+  display: flex;
+  height: 3rem;
+  flex-wrap: wrap;
+  align-content: space-between;
+  
+}
+#size{
+  width: 8rem;
+  height: auto;
+  padding-left: 0rem;
+  align-content: center;
+  
+}
+
+.heading{
+  text-align: center;
+}
+
+.input{
+  margin-left: 60px;
+  padding-bottom: 20px;
+}
+
+.para{
+  margin-left: 60px;
+}
+
+.text{
+  margin-left: 60px;
+}
