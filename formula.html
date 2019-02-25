@@ -18,12 +18,12 @@
 </head>
 
         <body background="pic2.jpg" class="bgimage">
-                <nav classss="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                  <a class="navbar-brand" href="index.html">My Site</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                  <a class="navbar-brand" href="index.html">My Site</a>
-                  <button cla
+                  </button>
                   <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item ">
@@ -33,7 +33,10 @@
                         <a class="nav-link " href="contact.html">Contact</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="formula.html">Temperature Conversion</a>
+                        <a class="nav-link " href="temperature.html">Temperature Conversion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="formula.html">Metric</a>
                       </li>
                     </ul>
                     <form class="form-inline mt-2 mt-md-0">
@@ -42,23 +45,60 @@
                     </form>
                   </div>
                 </nav>
-                <header class="heading">
-                    <h1>Temperature Conversion</h1>
-                </header>
-                <p class="para">
-                        <label>Fahrenheit</label>
-                        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
-                        oninput="temperatureConverter(this.value)"
-                        onchange="temperatureConverter(this.value)">
-                      </p>
-                      <p class="para">Celsius: <span id="outputCelsius"></span></p>
-                      <script>
-                     
-function temperatureConverter(valNum) {
-  valNum = parseFloat(valNum);
-  document.getElementById("outputCelsius").innerHTML = (valNum-32) / 1.8;
-}
-</script>
-<p class="para">Please enter the country:</p>
-<input type="text" class="text">
+
+                <h1 id="color" style="text-align: center">
+                  Total Price Calculation 
+                </h1>
+                <section id="container">
+            
+                  <p id="interact"></p>
+            
+                  <label class="input" style="margin-left: 5px">Enter price for product1: </label>
+                  <input id="pr1" class="form-control mr-sm-2" type="number" min="0" max="10000" placeholder="Enter a vaild number" style="width: 30rem">
+                  <br><br>
+            
+                  <label class="input" style="margin-left: 5px">Enter price for product2: </label>
+                  <input id="pr2" class="form-control mr-sm-2" type="number" min="0" max="10000" placeholder="Enter a vaild number" style="width: 30rem">
+                  <br><br>
+                  <label class="input" style="margin-left: 5px">Enter price for product3: </label>
+                  <input id="pr3" class="form-control mr-sm-2" type="number" min="0" max="10000" placeholder="Enter a vaild number" style="width: 30rem">
+                  <br><br>
+                  <label class="input" style="margin-left: 5px">Enter price for product4: </label>
+                  <input id="pr4" class="form-control mr-sm-2" type="number" min="0" max="10000" placeholder="Enter a vaild number" style="width: 30rem">
+                  <br><br>
+                  <label class="input" style="margin-left: 5px">Enter price for product5: </label>
+                  <input id="pr5" class="form-control mr-sm-2" type="number" min="0" max="10000" placeholder="Enter a vaild number" style="width: 30rem">
+                  <br><br>
+                  <button id="cost" class="btn btn-primary">Click here!!</button>
+                  <br><br>
+                  <p id="total"></p>
+                  <br>
+                  <br>
+                  
+            
+                  <script src="./scripts/potturi.js"></script> 
+                  
+                </section>
+
+
+                <footer class="container-fluid">
+                  &copy; Rudra Teja, Potturi
+                  </footer>
+                  <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/qunit/qunit-2.9.1.js"
+        integrity="sha256-eNccBdxd8zReziWcVjEsPeyJDi3LKMYnzMXyDv8bzsU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
                 </body>
+                </html>
+                

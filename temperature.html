@@ -12,6 +12,7 @@
           crossorigin="anonymous">
       
         <link href="./styles/aboutme.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       
         <title>Rudra Teja Potturi</title>
       
@@ -34,6 +35,9 @@
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active" href="temperature.html">Temperature Conversion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="formula.html">Metric</a>
                       </li>
                     </ul>
                     <form class="form-inline mt-2 mt-md-0">
@@ -59,6 +63,55 @@ function temperatureConverter(valNum) {
   document.getElementById("outputCelsius").innerHTML = (valNum-32) / 1.8;
 }
 </script>
-<p class="para">Please enter the country:</p>
-<input type="text" class="text">
-                </body>
+
+<br><br>
+      <article>
+        <section>
+            <div id="aja">
+                <h2>AJAX Implementation</h2>
+                <button type="button" onmouseover="aj()">Change Content</button>
+                </div>
+            </article>
+            <br><br>
+
+            <script src="./scripts/potturi.js"></script>
+
+            <h3 style="margin-left: 40px"> JQuery Implementation</h3>
+
+            <p style="margin-left: 40px">All the Best..!</p>
+            <button id="show" class="btn btn-primary" style="margin-left: 40px">Show</button>
+            <button id="hide" class="btn btn-primary"> Hide </button>
+       
+            <script src="./scripts/potturi.js"></script>
+       
+             
+            
+            <script>
+               $(document).ready(function(){
+                 $("#hide").click(function(){
+                   $("p").hide();
+                 });
+                 $("#show").click(function(){
+                   $("p").show();
+                 });
+               });
+               </script>
+
+<footer class="container-fluid" style="margin-top: 20px">
+  &copy; Rudra Teja, Potturi
+  </footer>
+   <!-- JQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+   <script src="https://code.jquery.com/qunit/qunit-2.9.1.js"
+   integrity="sha256-eNccBdxd8zReziWcVjEsPeyJDi3LKMYnzMXyDv8bzsU=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+   integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+   crossorigin="anonymous"></script>
+        </body>
+        </html>
